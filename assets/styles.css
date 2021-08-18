@@ -236,7 +236,6 @@ header.header-scroll{
 .detail_v2{
     background: url("/assets/img/details-2-background.jpg");
     background-repeat: no-repeat;
-    padding-bottom: 8rem;
 }
 
 .detail_v2-row{
@@ -250,7 +249,7 @@ header.header-scroll{
 /* feature */
 
 .feature {
-    background: url("/assets/img/features-background.jpg");
+    background: url("assets/img/features-background.jpg");
 }
 
 .feature .feature-row{
@@ -258,13 +257,13 @@ header.header-scroll{
     align-items: center;
     width: 100%;
     flex-direction: column;
-    padding-top: 7rem;
     padding-bottom: 7rem;
 }
 
 .feature h1{
     color: #fff;
     margin-bottom: 20px;
+    margin-top: 5rem;
 }
 
 .feature .h4{
@@ -311,19 +310,19 @@ header.header-scroll{
 
 .feature .item-content .hidden-text{
     margin-left: 60px;
-    color: rgb(223, 215, 215);
+    color: rgb(37 34 34);
     display: none;
 }
 
 .feature .item-content .active-text{
     margin-left: 60px;
-    color: rgb(223, 215, 215);
+    color: rgb(37 34 34);
 }
 
 .feature .text-item{
     font-size: 1.25rem;
     font-weight: bold;
-    color: #fff;
+    color: rgb(27, 26, 26);
     cursor: pointer;
 }
 
